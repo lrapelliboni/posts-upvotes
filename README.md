@@ -22,8 +22,11 @@ Backend application is wrote in Java8 + Spring Boot, to run application do:
 Run tests:
 * $ mvn test
 
-The main endpoint of application is:
+The backend URL is:
 http://localhost:8080
+
+The frontend URL is:
+http://localhost:3000/
 
 The (Postman) resources can be found: 
 * [Postman Collection](https://github.com/lrapelliboni/posts-upvotes/blob/master/backend/Posts.postman_collection.json)
