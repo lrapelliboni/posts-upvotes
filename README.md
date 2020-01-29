@@ -15,6 +15,7 @@ The database used in this application is H2 storage in file, to access connectio
 * Password: password
 
 Backend application is wrote in Java8 + Spring Boot, to run application do:
+* $ cd ./backend
 * $ mvn clean install
 * $ mvn spring-boot:run
 
@@ -23,3 +24,6 @@ Run tests:
 
 The main endpoint of application is:
 http://localhost:8080
+
+The (Postman) resources can be found: 
+* [Postman Collection](https://github.com/lrapelliboni/posts-upvotes/blob/master/backend/Posts.postman_collection.json)
